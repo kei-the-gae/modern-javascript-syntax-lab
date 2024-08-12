@@ -87,4 +87,20 @@ const userProfile = {
 
 const sentenceConstructor = (noun = 'cat', adjective = 'white') => { return `The ${noun} is ${adjective}.` };
 
-console.log(sentenceConstructor());
+// console.log(sentenceConstructor());
+
+// Convert the following `if...else` statement in to a ternary:
+
+let pizza = 'tasty';
+
+if (pizza === 'tasty') {
+    // console.log('yum');
+} else {
+    // console.log('yuck');
+}
+
+// Your code here
+
+let yummy = pizza === 'tasty' ? 'yum' : 'yuck';
+// expected: tasty
+// console.log(yummy);
