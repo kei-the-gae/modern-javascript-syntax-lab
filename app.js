@@ -34,3 +34,13 @@ const { make, model } = car;
 // expected: make = 'Audi', model = 'q5'
 // console.log(make);
 // console.log(model);
+
+// Duplicate the following array using the spread operator and assign it to `controversialPizzaToppings`. Then, log the variable.
+
+// const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies']; // reference to line 15
+
+// Your code here
+
+const controversialPizzaToppings = [...pizzaToppings];
+// expected: ['Pineapple', 'Olives', 'Anchovies']
+// console.log(controversialPizzaToppings);
