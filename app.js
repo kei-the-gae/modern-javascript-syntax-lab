@@ -20,3 +20,17 @@ const [firstTopping, secondTopping] = pizzaToppings;
 // expected: firstTopping = 'Pineapple', secondTopping = 'Olives'
 // console.log(firstTopping);
 // console.log(secondTopping);
+
+// Given the following object, use destructuring to create variables `make` and `model` that will hold the respective values.
+
+const car = {
+    make: 'Audi',
+    model: 'q5',
+};
+
+// Your code here
+
+const { make, model } = car;
+// expected: make = 'Audi', model = 'q5'
+// console.log(make);
+// console.log(model);
