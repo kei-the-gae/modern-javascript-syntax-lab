@@ -44,3 +44,20 @@ const { make, model } = car;
 const controversialPizzaToppings = [...pizzaToppings];
 // expected: ['Pineapple', 'Olives', 'Anchovies']
 // console.log(controversialPizzaToppings);
+
+// Duplicate the following object and spread its values into a new variable `myCar`.
+
+// const car = {
+//     make: 'Audi',
+//     model: 'q5',
+//   }; // reference to lines 26 - 29
+
+// Change the `model` property of `myCar` to 'q7'. Log both objects.
+
+// Your code here
+
+const myCar = { ...car };
+myCar.model = 'q7';
+// expected: car = { make: 'Audi', model: 'q5' }, myCar = { make: 'Audi', model: 'q7' }
+// console.log('Original: ', car);
+// console.log('Clone: ', myCar);
